@@ -26,5 +26,10 @@ node index.js
 ```bash
 cd client
 npm install
+```
+
+## Run Client
+
+```bash
 npm start
 ```
