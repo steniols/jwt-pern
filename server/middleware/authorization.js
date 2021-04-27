@@ -13,7 +13,7 @@ module.exports = function (req, res, next) {
 
     req.user = payload.user;
     next();
-  } catch {
+  } catch (err) {
     console.log(err.message);
     res.status(403).json("Not Authorize");
   }
