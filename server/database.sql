@@ -1,3 +1,5 @@
+-- create database
+
 CREATE DATABASE jwtpern;
 
 -- set extension
