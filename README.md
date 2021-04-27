@@ -12,7 +12,7 @@ npm install
 
 ## Configure database
 
-Postgres is required, so edit the `/server/db.js` file with yout database configs.
+Postgres is required, so edit the `/server/db.js` with your database configs.
 You must run the sql commands that are in the `/server/database.sql` inside your database.
 
 ## Run Server
