@@ -7,14 +7,8 @@ app.use(bodyParser.json());
 
 const cors = require("cors");
 
-// middlleware
-
-app.unsubscribe(express.json()); //req.body
+app.unsubscribe(express.json());
 app.use(cors());
-
-//Routes
-
-// Register and login routes
 
 app.use("/auth", require("./routes/jwtAuth"));
 app.use("/dashboard", require("./routes/dashboard"));
